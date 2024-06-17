@@ -3,7 +3,7 @@
 Este é um aplicativo para localizar conteúdo em PDF. Obs: Para que encontre o termo buscado, é necessário garantir que o PDF não seja lido como uma imagem. O robô consegue localizar apenas textos dentro do PDF. Para que o programa funcione no windows, é necessário que o pytessract esteja instalado e localizado na pasta padrão ```C:\Program Files\Tesseract-OCR\tesseract.exe``` 
 Download disponível em: https://github.com/UB-Mannheim/tesseract/wiki
 
-Tem duas funcionalidades principais:
+Esse aplicativo tem duas funcionalidades principais:
 
 ## *Busca de Texto em PDFs*
 
