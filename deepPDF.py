@@ -11,6 +11,11 @@ import pytesseract
 from PyPDF2 import PdfReader, PdfWriter
 import tempfile
 
+# Check if the OS is Windows
+if platform.system() == "Windows":
+    #Definir o caminho para o executável do Tesseract se não estiver no PATH padrão
+    pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'  #Caminho no Windows
+
 # Function to search for text in a PDF file.
 def search_text_in_pdf(pdf_path, search_text):
     try:

@@ -1,6 +1,7 @@
 # Deep PDF
 
-Este é um aplicativo para localizar conteúdo em PDF. Obs: Para que encontre o termo buscado, é necessário garantir que o PDF não seja lido como uma imagem. O robô consegue localizar apenas textos dentro do PDF. 
+Este é um aplicativo para localizar conteúdo em PDF. Obs: Para que encontre o termo buscado, é necessário garantir que o PDF não seja lido como uma imagem. O robô consegue localizar apenas textos dentro do PDF. Para que o programa funcione no windows, é necessário que o pytessract esteja instalado e localizado na pasta padrão ```C:\Program Files\Tesseract-OCR\tesseract.exe``` 
+Download disponível em: https://github.com/UB-Mannheim/tesseract/wiki
 
 Tem duas funcionalidades principais:
 
@@ -62,4 +63,3 @@ pyinstaller deepPDF.py --windowed --onefile
 Compilado e testado no linux mint virginia 21.3 x86_64 . Compilado no linux mint
 
 Compilado e testado no Windows x64. Compilado no Windows 11
-
